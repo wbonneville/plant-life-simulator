@@ -1,5 +1,5 @@
 body{
-    font-family:'Open-sans' sans-serif;
+    font-family:'San Francisco', sans-serif;
     font-size: 17px;
     line-height: 1.5em;
     margin: 0;
@@ -83,5 +83,9 @@ padding-bottom: 3px;
 
 #info .growing {
     width: 300px;
+}
+
+#features h2 {
+font-size: 30px;
 }
 
