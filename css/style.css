@@ -58,7 +58,7 @@ padding-bottom: 3px;
 #showcase{
     border-bottom: 1px solid #56a79a;
     margin-bottom: 30px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../images/leaf.JPG') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../images/leaf.jpg') no-repeat center center;
     background-position: top;
 }
 
