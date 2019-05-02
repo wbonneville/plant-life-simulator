@@ -17,17 +17,46 @@ img{
 /* COMMON CLASSES */
 
 .primary-text{
-    color: #56a79a;
+    color: #3d8d62;
 }
 
 .primary-background{
-    background:#56a79a;
+    background:#3d8d62;
 }
+
+.primary-headertext {
+    list-style:inline;
+    color: #3d8d62;
+}
+
+
+.primary-text { 
+    color: white; 
+    font: bold 52px Helvetica, Arial, Sans-Serif;
+    text-shadow: 1px 1px #3d8d62, 
+                 2px 2px #3d8d62, 
+                 3px 3px #3d8d62;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition:    all 0.12s ease-out;
+    -ms-transition:     all 0.12s ease-out;
+    -o-transition:      all 0.12s ease-out;
+ }
+ .primary-text:hover {
+    position: relative; 
+    top: -3px; 
+    left: -3px; 
+    text-shadow: 1px 1px #3d8d62, 
+                 2px 2px #3d8d62, 
+                 3px 3px #3d8d62, 
+                 4px 4px #3d8d62, 
+                 5px 5px #3d8d62, 
+                 6px 6px #3d8d62;
+ }
 
 /* HEADER */
 
 #main-header{
-    border-bottom: 1px solid #56a79a;
+    border-bottom: 1px solid #3d8d62;
 }
 
 /* NAVBAR */
@@ -49,16 +78,16 @@ img{
 
 #navbar li.current a, #navbar a:hover{
 color:#56a79a;
-border-bottom: 3px solid #56a79a;
+border-bottom: 3px solid #3d8d62;
 padding-bottom: 3px;
 }
 
 /* SHOWCASE */
 
 #showcase{
-    border-bottom: 1px solid #56a79a;
+    border-bottom: 1px solid #3d8d62;
     margin-bottom: 30px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../images/leaf.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../images/unsplash6.jpg') no-repeat center center;
     background-position: top;
     
 }
@@ -92,18 +121,12 @@ padding-bottom: 3px;
     margin:0; 
 }
 
-#showcase .showcase-content{
-    background: #333;
-    color: #fff;
-    border-radius: 80px;
-    padding: 40px;
-    opacity: 0.9;
-}
+
 
 /* INFO */
 
 #info{
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url('../images/unsplash6.jpg') no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/unsplash1.jpg') no-repeat center;
     
 }
 
@@ -123,10 +146,8 @@ padding-bottom: 3px;
 
 #features .fa, #features .fas, #features .fab, #features .far {
     font-size:60px;
-    color:#56a79a;
+    color:#3d8d62;
 }
-
-
 
 #info h2{
     font-size: 30px;
@@ -147,8 +168,62 @@ padding-bottom: 3px;
     color: white;
 }
 
-#info li .fas-fa-check {
-    text-align: left;
+/* COMPANY */
+#company{
+    background: #333;
+    color: #fff;
+    padding: 10px 0
+}
+
+#company h4{
+    text-transform:uppercase;
+    margin-bottom:0;
+}
+
+#company ul{
+    padding:0;
+    list-style:none;
+    line-height:2em;
+}
+
+#company input[type="text"]{
+    padding: 7px;
+}
+
+#company button{
+    background:#222;
+    color:#fff;
+    padding: 10px;
+    border: 0;
+}
+
+/* FOOTER */
+
+#main-footer{
+    background:#3d8d62;
+    color:#fff;
+}
+
+/* PAGE */
+
+#page{
+    margin-bottom: 40px;
+}
+
+/* SERVICES */
+
+.services ul li{
+list-style: none;
+padding: 30px;
+}
+
+.services ul li:nth-child(odd){
+    color: fff;
+}
+
+.services ul li:nth-child(even){
+    background:#3d8d62;
+    color: fff;
 }
 
 /* MEDIA QUERIES */
