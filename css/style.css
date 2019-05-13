@@ -18,6 +18,7 @@ img{
 
 .primary-text{
     color: #3d8d62;
+ 
 }
 
 .primary-background{
@@ -168,6 +169,7 @@ padding-bottom: 3px;
     color: white;
 }
 
+
 /* COMPANY */
 #company{
     background: #333;
@@ -212,6 +214,10 @@ padding-bottom: 3px;
 
 /* SERVICES */
 
+.services ul {
+    padding: 0;
+}
+
 .services ul li{
 list-style: none;
 padding: 30px;
@@ -224,6 +230,7 @@ padding: 30px;
 .services ul li:nth-child(even){
     background:#3d8d62;
     color: fff;
+    
 }
 
 /* CONTACT */
